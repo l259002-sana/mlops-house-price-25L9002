@@ -1,8 +1,27 @@
+# Dataset files - ignore everything inside data/
+data/*
+
+# Model files - ignore everything inside model/
+model/*
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache files
 __pycache__/
 *.pyc
-.venv/
-venv/
+*.pyo
+*.pyd
+
+# Serialized model files
+*.pkl
+*.h5
+*.joblib
+
+# VS Code
 .vscode/
-.ipynb_checkpoints/
-model/*.joblib
-model/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
