@@ -78,7 +78,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"\nTraining samples: {len(X_train)}")
 print(f"Testing samples: {len(X_test)}")
 
-
+EXPERIMENT = "feature branch - 25L9002"
 # --------------------------------------------------
 # 4. Train Machine Learning Model
 # --------------------------------------------------
